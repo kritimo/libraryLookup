@@ -28,7 +28,7 @@ public:
     string getGenre();
     bool isAvailable();
     void setAvailable(bool availability);
-    void displayDetails();
+    const void displayDetails();
 };
 
 #endif /* book_hpp */

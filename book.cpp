@@ -25,7 +25,7 @@ void Book::setAvailable(bool availability) {
     available = availability;
 }
 
-void Book::displayDetails() {
+const void Book::displayDetails() {
     cout << "Title: " << title << endl;
     cout << "Author: " << author << endl;
     cout << "ISBN: " << isbn << endl;
