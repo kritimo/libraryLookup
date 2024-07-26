@@ -19,6 +19,7 @@ private:
     vector<Book> books;
 
 public:
+    Library();
     void addBook(string title, string author, string isbn, string genre);
     void const displayBooks();
     void borrowBook(string isbn);

@@ -10,6 +10,10 @@
 
 using namespace std;
 
+Library::Library(){
+    vector<Book> books;
+}
+
 void Library::addBook(string title, string author, string isbn, string genre) {
     Book newBook = Book(title, author, isbn, genre);
     books.push_back(newBook);
